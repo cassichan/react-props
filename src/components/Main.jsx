@@ -1,9 +1,7 @@
-import React from "react";
-
-export default function Main({name, total, fruit, isAwesome }) {
+export default function Main({name}) {
     return (
         <main>
-            <h1>Hello {props.name}</h1>
+            <h1>Hello {name}</h1>
         </main>
     )
 }
