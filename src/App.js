@@ -8,7 +8,7 @@ function App() {
   const [name, setName] = useState("Mason");
   return (
     <>
-      <Menubar />
+      <Menubar name={name} setName={setName} />
       <Main name={name} />
       {/* {students.map(stud => {
           <Main key={stud} name={name}/>
