@@ -14,7 +14,7 @@ function App() {
       {/* {students.map(stud => {
           <Main key={stud} name={name}/>
         })} */}
-        <Coffee/>
+      <Coffee />
       <Footer />
     </>
   );
